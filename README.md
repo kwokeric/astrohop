@@ -27,7 +27,7 @@ In addition, this project will include:
 
 This app will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn, and the About modal. Game controls will only consist of a Start button. The whole page is clickable, which will begin the game. The astronaut will follow the user's cursor. All the control is through the mouse.
 
-![Game Layout](https://github.com/kwokeric/astrohop/master/docs/astrohop.png)
+![Game Layout](https://github.com/kwokeric/astrohop/docs/astrohop.png)
 
 ## Architecture and Technologies
 
