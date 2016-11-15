@@ -1,0 +1,22 @@
+html, body {
+  background-color: #000;
+  min-height: 100%;
+}
+
+canvas {
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  min-width: 1000px;
+  max-width: 100%;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+canvas#canvas {
+  background-color: #222;
+  border-radius: 8px;
+}
