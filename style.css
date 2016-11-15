@@ -6,7 +6,7 @@ html, body {
 canvas {
   position: absolute;
   width: 1000px;
-  height: 600px;
+  height: 700px;
   min-width: 1000px;
   max-width: 100%;
   left: 50%;
@@ -17,6 +17,6 @@ canvas {
 }
 
 canvas#canvas {
-  background-color: #222;
-  border-radius: 8px;
+  background-color: #111;
+  border-radius: 10px;
 }
