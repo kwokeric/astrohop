@@ -1,6 +1,7 @@
 html, body {
   background-color: #000;
   min-height: 100%;
+  margin: 0;
 }
 
 canvas {
@@ -10,7 +11,7 @@ canvas {
   min-width: 1000px;
   max-width: 100%;
   left: 50%;
-  top: 40%;
+  top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
