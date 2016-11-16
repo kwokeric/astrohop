@@ -6,9 +6,9 @@ html, body {
 
 canvas {
   position: absolute;
-  width: 1000px;
-  height: 700px;
-  min-width: 1000px;
+  width: 800px;
+  height: 550px;
+  min-width: 800px;
   max-width: 100%;
   left: 50%;
   top: 50%;
