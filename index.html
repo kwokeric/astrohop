@@ -6,11 +6,20 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   <script type="application/javascript" src="lib/bundle.js"></script>
 </head>
 
 <body>
-
+  <div id="start-modal" class="modal">
+	  <div class="modal-content">
+			<p class="header">How to Play:</p>
+      <p>Click mouse to jump</p>
+			<p>Use your mouse to move</p>
+			<p>Touch bubbles to score</p>
+			<button id="start">Start!</button>
+	  </div>
+	</div>
   <canvas id="canvas">This browser does not support canvas.</canvas>
 
   <script>

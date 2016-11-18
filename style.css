@@ -21,3 +21,46 @@ canvas#canvas {
   background-color: #111;
   border-radius: 10px;
 }
+
+.modal {
+  z-index: 10;
+  position: absolute;
+  display: none;
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.modal-content {
+  font-family: Audiowide;
+  font-size: 16px;
+  color: #999;
+  background-color: #444;
+  padding: 20px;
+  border: 2px solid #111;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.header {
+  font-size: 20px;
+  color: white;
+}
+
+button {
+  height: 40px;
+  width: 90px;
+  background-color: #DDD;
+  border-radius: 3px;
+  font-size: 20px;
+  font-family: Audiowide;
+  color: #444;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #AAA;
+}
