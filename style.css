@@ -1,12 +1,29 @@
 html, body {
+  background-color: black;
   background-image: url("https://raw.githubusercontent.com/kwokeric/astrohop/master/docs/moon.jpg");
   background-size: cover;
   min-height: 100%;
   margin: 0;
+  font-family: Audiowide;
 }
 
 p {
   margin: 10px 0;
+}
+
+.title {
+  position: absolute;
+  width: 200px;
+  top: 5%;
+  left: 50%;
+  margin-left: -100px;
+}
+
+h1 {
+  font-family: Audiowide;
+  font-size: 40px;
+  text-align: center;
+  color: white;
 }
 
 canvas {
@@ -25,7 +42,7 @@ canvas {
 canvas#canvas {
   background-color: #111;
   border-radius: 10px;
-  box-shadow: 0px 0px 25px black;
+  box-shadow: 0px 0px 50px black;
 }
 
 .modal-start, .modal-over {

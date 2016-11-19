@@ -12,12 +12,15 @@
 </head>
 
 <body>
+  <div class="title">
+    <h1>Astrohop</h1>
+  </div>
   <div id="modal-start" class="modal-start">
 	  <div class="modal-content">
 			<p class="header">How to Play:</p>
-      <p>Click mouse to jump</p>
+      <p>Click mouse to start</p>
 			<p>Use your mouse to move</p>
-			<p>Touch circles to score</p>
+			<p>Touch circles to jump</p>
       <div class="mode">
         <p>Easy mode</p>
         <label class="switch">
@@ -31,6 +34,8 @@
   <div id="modal-over" class="modal-over">
 	  <div class="modal-content">
       <p class="header">You lost!</p>
+			<p>High Score: </p>
+			<p id="high-score"></p>
 			<p>Your Score: </p>
 			<p id="score"></p>
 			<button id="btn-again">Play Again</button>
