@@ -40,9 +40,9 @@ canvas {
 }
 
 canvas#canvas {
-  background-color: #111;
+  border: 3px solid #999;
   border-radius: 10px;
-  box-shadow: 0px 0px 50px black;
+  box-shadow: 2px 2px 0px black;
 }
 
 .modal-start, .modal-over {
@@ -153,19 +153,32 @@ input:checked + .slider:before {
   transform: translateX(16px);
 }
 
-@import url(http://fonts.googleapis.com/css?family=Give+You+Glory);
-
-.start {
-  color: white;
-  font-family: 'Give You Glory', cursive;
-  font-size: 40px;
-  margin-top: -40px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-
 #score, #high-score {
   color: white;
+}
+
+.explosion {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  animation: pop 1s reverse forwards;
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
 }
