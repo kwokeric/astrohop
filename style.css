@@ -20,8 +20,14 @@ p {
 }
 
 a {
-  color: white;
+  color: #888;
   text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: white;
 }
 
 .title {
