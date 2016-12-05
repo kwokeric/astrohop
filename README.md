@@ -1,5 +1,7 @@
 # Astrohop
 
+[Live](https://kwokeric.github.io/astrohop/)
+
 Astrohop is a jumping game where the aim is to use your cursor to guide an astronaut up a never-ending series of objects (circles) without falling.
 
 ![Game Layout](./docs/begin.png)
