@@ -1,0 +1,9 @@
+# Ignore all logfiles and tempfiles.
+.DS_Store
+
+# Ignore node modules
+node_modules/
+
+# Ignore bundle
+/lib/bundle.js
+/lib/bundle.js.map
