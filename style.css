@@ -6,7 +6,9 @@ html, body {
   margin: 0;
   font-family: Audiowide;
 }
-
+body {
+  overflow: hidden;
+}
 p {
   margin: 10px 0;
 }
